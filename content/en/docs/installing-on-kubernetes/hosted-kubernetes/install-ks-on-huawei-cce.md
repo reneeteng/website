@@ -13,7 +13,7 @@ This instruction is about how to install KubeSphere 3.0.0 on [Huaiwei CCE](https
 First, create a Kubernetes Cluster according to the resources. Meet the requirements below (ignore this part if your environment is as required).
 
 - KubeSphere 3.0.0 supports Kubernetes `1.15.x`, `1.16.x`, `1.17.x`, and `1.18.x` by default. Select a version and create the cluster, e.g. `v1.15.11`, `v1.17.9`.
-- Ensure the cloud computing network for your Kubernetes cluster works, or use an elastic IP when “uto Create”or “Select Existing”; or confgiure the network after the cluster is created. Refer to Configure [NAT Gateway](https://support.huaweicloud.com/en-us/productdesc-natgateway/en-us_topic_0086739762.html).
+- Ensure the cloud computing network for your Kubernetes cluster works, or use an elastic IP when "Auto Create" or "Select Existing";; or configure the network after the cluster is created. Refer to Configure [NAT Gateway](https://support.huaweicloud.com/en-us/productdesc-natgateway/en-us_topic_0086739762.html).
 - Select `s3.xlarge.2`  `4-core｜8GB` for nodes and add more if necessary (3 and more nodes are required for production environment).
 
 ### Create a public key for kubectl
