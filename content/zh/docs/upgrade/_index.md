@@ -1,6 +1,6 @@
 ---
-title: "Upgrade"
-description: "Upgrade KubeSphere and Kubernetes"
+title: "升级"
+description: "升级KubeSphere和Kubernetes"
 layout: "single"
 
 linkTitle: "Upgrade"
@@ -11,12 +11,12 @@ icon: "/images/docs/docs.svg"
 
 ---
 
-## Installing KubeSphere and Kubernetes on Linux
+## 在Linux中安装KubeSphere和Kubernetes
 
-In this chapter, we will demonstrate how to use KubeKey to provision a new Kubernetes and KubeSphere cluster based on different infrastructures. Kubekey can help you to quickly build a production-ready cluster architecture on a set of machines from zero to one. It also helps you to easily scale the cluster and install pluggable components on existing architecture.
+本章将展示基于不同的基础架构如何使用 KubeKey 提供一个新的 Kubernetes 和 KubeSphere 集群。Kubekey 可以帮助你在一组机器上从无到有迅速构建可用于生产的集群体系结构。还可以帮助你轻松扩展集群并在现有体系结构上安装扩展组件。
 
-## Most Popular Pages
+## 热门页面
 
-Below you will find some of the most common and helpful pages from this chapter. We highly recommend you to review them at first.
+下面是本章中一些最常见和有用的页面。我们强烈建议您先看一遍。
 
 {{< popularPage icon="/images/docs/bitmap.jpg" title="Install KubeSphere on AWS EC2" description="Provisioning a new Kubernetes and KubeSphere cluster based on AWS" link="" >}}
